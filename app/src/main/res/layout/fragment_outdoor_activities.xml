@@ -5,5 +5,5 @@
     android:layout_height="match_parent"
     tools:context=".Fragment.Community.Outdoor_activities">
 
-
+    <!-- navigation graph fragment -->
 </FrameLayout>

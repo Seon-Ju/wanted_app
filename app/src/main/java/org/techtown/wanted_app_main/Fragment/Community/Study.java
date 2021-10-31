@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import org.techtown.wanted_app_main.R;
-
+//
 /**
  * A simple {@link Fragment} subclass.
  * Use the {@link Study#newInstance} factory method to

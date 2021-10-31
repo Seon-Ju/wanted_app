@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Fragment.Community.Contest">
-
+    <!-- navigation graph fragment -->
     <androidx.recyclerview.widget.RecyclerView
         android:layout_marginTop="15dp"
         android:id="@+id/postre"

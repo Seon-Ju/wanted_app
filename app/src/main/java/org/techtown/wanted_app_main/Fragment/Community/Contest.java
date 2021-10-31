@@ -16,7 +16,7 @@ import org.techtown.wanted_app_main.R;
 
 import java.util.ArrayList;
 
-
+//
 public class Contest extends Fragment {
 
 

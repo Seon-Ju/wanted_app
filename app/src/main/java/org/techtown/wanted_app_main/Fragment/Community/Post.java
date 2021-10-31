@@ -1,5 +1,5 @@
 package org.techtown.wanted_app_main.Fragment.Community;
-
+//
 public class Post {
     String image;
     String title;

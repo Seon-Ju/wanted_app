@@ -3,7 +3,7 @@
     android:layout_height="wrap_content"
     android:layout_width="wrap_content">
     <item>
-
+        <!-- -->
         <shape android:shape="rectangle">
             <corners android:radius="10dip" />
             <solid android:color="#F6F5F4" />
