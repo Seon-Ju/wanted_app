@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context="Fragment.ProfileFragment">
+    <LinearLayout
+
+android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="10dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:srcCompat="@drawable/proimage" />
+
+                <LinearLayout
+
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_marginTop="25dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="아이디"
+                        android:id="@+id/mypageid"
+                        android:layout_marginLeft="10dp"
+                        android:textColor="@color/black"
+                        android:textSize="14dp"/>
+                    <ImageView
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="25dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_baseline_email_24" />
+
+
+                </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="#E1DCDC"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="기본정보"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="55dp"
+                        android:layout_height="30dp"
+                        android:clickable="false"
+                        android:text="학교"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="홍익대학교"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="55dp"
+                        android:layout_height="30dp"
+                        android:clickable="false"
+                        android:text="전공"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="경영학과"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="55dp"
+                        android:layout_height="30dp"
+                        android:clickable="false"
+                        android:text="학년"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="2학년"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="201dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="55dp"
+                        android:layout_height="30dp"
+                        android:clickable="false"
+                        android:text="학번"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="20181079"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="55dp"
+                        android:layout_height="30dp"
+                        android:clickable="false"
+                        android:text="성별"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="여"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:layout_width="55dp"
+                        android:layout_height="30dp"
+                        android:clickable="false"
+                        android:text="지역"
+                        android:textColor="@color/black"
+                        android:textSize="10dp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="서울 관악구"
+                        android:textColor="@color/black"
+                        android:textSize="15dp" />
+                    <Switch
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+    </LinearLayout>
+        <View
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="#E1DCDC"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="역량"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- 개발스택(python,django)"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+    </LinearLayout>
+    <View
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="#E1DCDC"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="팀"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@color/black"
+            android:textSize="15dp"/>
+
+        <ImageView
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            app:srcCompat="@drawable/ic_baseline_add_circle_24"
+            />
+    </LinearLayout>
+
+</LinearLayout>
+    </LinearLayout>
+</LinearLayout>

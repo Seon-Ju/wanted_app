@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/mainFragment">
+
+    <fragment
+        android:id="@+id/communityFragment"
+        android:name="org.techtown.wanted_app_main.Fragment.CommunityFragment"
+        android:label="fragment_community"
+        tools:layout="@layout/fragment_community" />
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="org.techtown.wanted_app_main.Fragment.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="org.techtown.wanted_app_main.Fragment.MainFragment"
+        android:label="fragment_main"
+        tools:layout="@layout/fragment_main" >
+        <action
+            android:id="@+id/action_mainFragment_to_communityFragment"
+            app:destination="@id/communityFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_showFriendsFragment"
+            app:destination="@id/showFriendsFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_mainFragment"
+        app:destination="@id/mainFragment"
+        app:popUpTo="@id/nav_graph" />
+    <action
+        android:id="@+id/action_global_communityFragment"
+        app:destination="@id/communityFragment"
+        app:popUpTo="@id/mainFragment" />
+    <action
+        android:id="@+id/action_global_profileFragment"
+        app:destination="@id/profileFragment"
+        app:popUpTo="@id/mainFragment" />
+    <fragment
+        android:id="@+id/chatFragment"
+        android:name="org.techtown.wanted_app_main.Fragment.ChatFragment"
+        android:label="fragment_chat"
+        tools:layout="@layout/fragment_chat" />
+    <fragment
+        android:id="@+id/showFriendsFragment"
+        android:name="org.techtown.wanted_app_main.Fragment.ShowFriendsFragment"
+        android:label="fragment_show_friends"
+        tools:layout="@layout/fragment_show_friends" >
+        <action
+            android:id="@+id/action_showFriendsFragment_to_profileFragment"
+            app:destination="@id/profileFragment" />
+    </fragment>
+    <action
+        android:id="@+id/action_global_chatFragment"
+        app:destination="@id/chatFragment"
+        app:popUpTo="@id/mainFragment" />
+</navigation>
